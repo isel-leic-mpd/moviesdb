@@ -8,7 +8,7 @@ gradle-app.setting
 !gradle-wrapper.jar
 
 # Ignore InteliJ metadata
-.idea
+#.idea
 *.iml
 
 # Ignore InteliJ build folder
