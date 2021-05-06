@@ -1,4 +1,4 @@
-package isel.leirt.mpd.moviesdb1.queries.iterators;
+package isel.leirt.mpd.queries.iterators;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

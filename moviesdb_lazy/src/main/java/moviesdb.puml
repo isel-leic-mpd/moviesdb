@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class MoviesDbService {
+	+  searchByGenre(int genreId, int maxSeries) :Iterable<TvSeries>
+	+  getGenres() : Iterable<Genre>
+	+  getSeriesActors(int seriesId) : Iterable<Actor>
+	+  getActorSeries(int actorId) : Iterable<TvSeries>
+}
+
+class MoviesDbWebApi {
+	+ getGenres() :List<GenreDto>
+	+ discoveryTvSeries(int page, int ... genres) : List<TvSeriesDto>
+	+ tvSeriesActors(int tvSeriesId) : List<ActorDto>
+	+ actorTvSeries(int actorId) : List<TvSeriesDto>
+}
+
+interface Request {
+	getReader(String path) : Reader
+}
+
+MoviesDbService   "1"   o- "1" MoviesDbWebApi
+MoviesDbWebApi    "1"   o- "1" Request
+@enduml

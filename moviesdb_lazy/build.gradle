@@ -19,7 +19,7 @@ repositories {
 dependencies {
     // Use JUnit test framework.
     testImplementation 'junit:junit:4.13'
-
+    implementation project(':moviesdb_utils')
     implementation 'com.google.code.gson:gson:2.8.6'
 
 }

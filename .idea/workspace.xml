@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="989ebb27-1656-4dce-afdb-aab33855408e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/moviesdb_lazy/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/MoviesDbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/MoviesDbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/MoviesDbWebApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/MoviesDbWebApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/dto/ActorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/dto/ActorDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/dto/GenreDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/dto/GenreDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/dto/TvSeriesDetailDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/dto/TvSeriesDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/dto/TvSeriesDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/model/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/model/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/model/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/model/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/model/TvSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/model/TvSeries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/queries/Queries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/queries/iterators/ArrayIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/queries/iterators/FilterIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/queries/iterators/FlatMapIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/queries/iterators/MapIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/queries/iterators/PrimesIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviesdb_lazy/src/main/java/isel/leirt/mpd/moviesdb1/queries/iterators/TakeWhileIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1sBBSqbd73UZ3kXdFBFXZZdKHO2" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/moviesdb_lazy/src/main/java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="$PROJECT_DIR$/../../../../../../Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\home\disciplinas\MPD\2s2020-2021\src\moviesdb\moviesdb_lazy\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="989ebb27-1656-4dce-afdb-aab33855408e" name="Default Changelist" comment="" />
+      <created>1620336105003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620336105003</updated>
+      <workItem from="1620336106872" duration="2365000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

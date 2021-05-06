@@ -2,14 +2,17 @@ package isel.leirt.mpd.moviesdb1.dto;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
+
+import static isel.leirt.mpd.queries.Queries.map;
+import static isel.leirt.mpd.queries.Queries.toList;
 
 public class TvSeriesDto {
 	private String first_air_date;
-	private  List<Integer> genre_ids;
+	private  int[] genre_ids;
 	private  int id;
 	private  String name;
 	private  double popularity;
-	private  double vote_average;
 	private String character;
 
 	public LocalDate getStartDate() {
@@ -20,14 +23,30 @@ public class TvSeriesDto {
 		return name;
 	}
 
-	@Override
+
+	public int getId() {
+		return id;
+	}
+
+	public double getPopularity() {
+		return popularity;
+	}
+
+	public int[] getGenreIds() {
+		return genre_ids;
+	}
+
 	public String toString() {
 		return "{ "
 			+ "series name=" + getName()
 			+ ", start_date=" + getStartDate()
 			+ ", series_id=" + id
 			+ ", popularity=" + popularity
-			+ ((character != null && character.length()>0) ? (", character=" + character) : "")
+			+ getCharacter().map(c -> ", character=" +c).orElse("")
 			+ " }";
+	}
+
+	public Optional<String> getCharacter() {
+		return (character == null || character.length() ==0) ? Optional.empty() : Optional.of(character);
 	}
 }

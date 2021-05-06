@@ -1,15 +1,15 @@
 package isel.leirt.mpd.moviesdb1.dto;
 
 public class GenreDto {
-	private String id;
+	private int id;
 	private String name;
 
-	public GenreDto(String id, String name) {
+	public GenreDto(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}
 
-	public String getId() { return id; }
+	public int getId() { return id; }
 
 	public String getName() { return name; }
 

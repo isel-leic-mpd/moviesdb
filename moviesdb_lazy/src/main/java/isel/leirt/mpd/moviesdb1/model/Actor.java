@@ -7,9 +7,28 @@ public class Actor {
 	private String name;
 	private double popularity;
 
-	private Function<Integer, Iterable<TvSeries>> series;
+	private Iterable<TvSeries> series;
+
+	public Actor(int id, String name, double popularity, Iterable<TvSeries> series) {
+		this.id = id;
+		this.name = name;
+		this.popularity = popularity;
+		this.series = series;
+	}
 
 	Iterable<TvSeries> getSeries() {
-		return series.apply(id);
+		return series;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public double getPopularity() {
+		return popularity;
 	}
 }

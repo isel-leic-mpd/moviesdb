@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Actor {
+	+ getName() : String
+	+ getId() :  int
+	+ getPopularity() : double
+	+ getCharacter() : Optional<String>
+	+ getSeries() : Iterable<TvSeries> 
+}
+
+class TvSeries {
+	+ getStartDate() : LocalDate
+	+ getName() : String
+	+ getId() : int
+	+ getPopularity() : double
+	+ getGenreIds() : int[]
+	+ getCharacter() : Optional<String>
+	+ getActors() : Iterable<Actor>
+    + getGenres() : Iterable<Genre>
+}
+
+class Genre {
+	+ getId() : int
+	+ getName() : String
+	+ getSeries() : Iterable<TvSeries>
+}
+
+Genre      o- "*" TvSeries : series
+TvSeries   o- "*" Genre : genres
+TvSeries   o- "*" Actor : actors
+Actor      o- "*" TvSeries : series
+@enduml

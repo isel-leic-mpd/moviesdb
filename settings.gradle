@@ -9,3 +9,5 @@
 
 rootProject.name = 'moviesdb'
 include('moviesdb_lazy')
+include 'moviesdb_utils'
+
