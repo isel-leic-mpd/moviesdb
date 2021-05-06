@@ -34,7 +34,7 @@ A instanciação e navegação dos objectos de domínio é feita por
 `MoviesDbService` que recorre à classe `MoviesDbWebApi` para realizar os pedidos à
 Web Api de Movies Database.
  
-<img src="assets/service.png" width="800px"/> 
+<img src="assets/moviesdb.png" width="800px"/> 
 
 ## 1. **util** `LazyQueries`
 
