@@ -2,8 +2,8 @@
 
 **Data limite de entrega: 23 de Maio**
 
-**Objectivos**: Prática com funções de primeira classe, expressões lambda,
-funções de ordem superior, `Iterable<T>`
+**Objectivos**: Prática com aspetos funcionais da linguagem Java: expressões lambda,
+funções de ordem superior, construção de sequências lazy via `Iterable<T>`
 
 **NOTA**: 
 1.  A solução entregue deve incluir todos os testes unitários necessários para
@@ -38,7 +38,7 @@ Web Api de Movies Database.
 
 ## 1. **util** `LazyQueries`
 
-O módulo **moviesdb-lazy**  recorre a **boardstar-util** para executar tarefas
+O módulo **moviesdb-lazy**  recorre a **moviesdb-util** para executar tarefas
 auxiliares tais como operações sobre sequências implementadas pela classe
 `LazyQueries`.
 Implemente em `LazyQueries` as seguintes operações e **todos os testes unitários
@@ -63,11 +63,11 @@ necessários à validação dos respectivos métodos**.
 **Note que todos os testes devem validar corretamente o projecto mesmo
 na ausência de ligação  à internet.**
 
-Para implementar as funcionalidade de `BgaWebApi` deve recorrer às seguintes rotas da Web API de Board Game Atlas:
-  * https://api.themoviedb.org/3/genre/tv
-  * https://api.themoviedb.org/3/discover/tv
-  * https://api.themoviedb.org/3/tv
-  * https://api.themoviedb.org/3/person
+Para implementar as funcionalidade de `MoviesDbWebApi` deve recorrer às rotas documentadas em:
+  * https://developers.themoviedb.org/3/tv
+  * https://developers.themoviedb.org/3/discover
+  * https://developers.themoviedb.org/3/people
+  * https://developers.themoviedb.org/3/genre
 
 Os resultados da API RESTFul podem ser convertidos através da biblioteca Gson
 para instâncias de classes pré-definidas (DTOs).
