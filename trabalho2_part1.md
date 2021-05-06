@@ -45,9 +45,9 @@ Implemente em `LazyQueries` as seguintes operações e **todos os testes unitár
 necessários à validação dos respectivos métodos**:
 
 1. Baseando-se nas implementações dadas nas aulas, acrescente os métodos:
-   * _factory_: `Iterable<T> iterate(T seed, UnaryOperator<T> acc)`;
-   * operações intermédias:   `skip()`, `limit()`, `map()`,`flatMap` e `takeWhile;
-   * operações terminais: `count()` , `Object[] toArray()`,`first()` e `max()`.
+   * _factory_: `Iterable<T> iterate(T seed, UnaryOperator<T> acc)`, `Iterable<Integer> range(int li, int ls)`;
+   * operações intermédias:   `skip()`, `limit()`,`flatMap` e `takeWhile`;
+   * operações terminais: ``List<T> toList()`  e `reduce(Iterable<T> src, U initial, BiFunction<T,U,U> accum)`.
  
 3. `last(Iterable<T> src)` - retorna o último elemento da sequência `src` na forma de `Optional<T>`
 4. `skipWhile(Iterable<T> src, Predicate<T> pred)` - retorna uma nova sequência que descarta da sequência original os primeiros
