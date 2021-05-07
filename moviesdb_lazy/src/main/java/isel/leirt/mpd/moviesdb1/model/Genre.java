@@ -4,7 +4,7 @@ public class Genre {
 	private int id;
 	private String name;
 
-	Iterable<TvSeries> series;
+	private Iterable<TvSeries> series;
 
 	public Genre(int id, String name, Iterable<TvSeries> series) {
 		this.id = id;

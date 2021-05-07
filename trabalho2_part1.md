@@ -94,7 +94,7 @@ página sem elementos ou o número máximo de elementos requisitados ter sido at
 Para tal deve executar um encadeamento de operações semelhante ao seguinte:
 
 ```
-range(…) ==> 1,2,3,.., maxPage 
+		   range(…) ==> 1,2,3,.., maxPage 
            ==> map(invoke MoviesDbWebApi) 
            ==> list 1, list 2, … 
            ==> takeWhile(list.size() != 0) 

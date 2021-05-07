@@ -30,11 +30,12 @@ public class TvSeries {
 	    this.start_date = start_date;
 	    this.character = character;
 	}
-	Iterable<Actor> getActors() {
+
+	public Iterable<Actor> getActors() {
 		return actors;
 	}
 
-	Iterable<Genre> getGenres() {
+	public Iterable<Genre> getGenres() {
 		return genres;
 	}
 

@@ -14,7 +14,7 @@ public class Actor {
 		this.series = series;
 	}
 
-	Iterable<TvSeries> getSeries() {
+	public Iterable<TvSeries> getSeries() {
 		return series;
 	}
 
