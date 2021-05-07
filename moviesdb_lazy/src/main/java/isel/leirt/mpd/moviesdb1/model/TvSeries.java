@@ -1,11 +1,8 @@
 package isel.leirt.mpd.moviesdb1.model;
 
 import java.time.LocalDate;
-import java.util.List;
 import java.util.Optional;
-import java.util.function.Function;
 
-import static isel.leirt.mpd.queries.Queries.reduce;
 
 public class TvSeries {
 	private LocalDate start_date;
@@ -53,20 +50,9 @@ public class TvSeries {
 		return popularity;
 	}
 
-
-
 	public LocalDate getStartDate() {
 		return start_date;
 	}
 
 
-	public String toString() {
-		return "{ "
-			+ "series name=" + getName()
-			+ ", start_date=" + getStartDate()
-			+ ", series_id=" + id
-			+ ", popularity=" + popularity
-			+ character.map(c -> ", character=" +c).orElse("")
-			+ " }";
-	}
 }

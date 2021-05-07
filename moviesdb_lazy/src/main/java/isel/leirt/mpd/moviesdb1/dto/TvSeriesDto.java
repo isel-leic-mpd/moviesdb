@@ -1,11 +1,8 @@
 package isel.leirt.mpd.moviesdb1.dto;
 
 import java.time.LocalDate;
-import java.util.List;
 import java.util.Optional;
 
-import static isel.leirt.mpd.queries.Queries.map;
-import static isel.leirt.mpd.queries.Queries.toList;
 
 public class TvSeriesDto {
 	private String first_air_date;
