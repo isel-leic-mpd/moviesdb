@@ -27,7 +27,7 @@ public class MoviesDbWebApiTests
 		MoviesDbWebApi api = new MoviesDbWebApi(new HttpRequest());
 		int animationGenreId = 16;
 		List<TvSeriesDto> series =
-			api.discoveryTvSeries(1, animationGenreId);
+			 api.discoveryTvSeries(1, animationGenreId);
 		assertEquals(20, series.size());
 	}
 

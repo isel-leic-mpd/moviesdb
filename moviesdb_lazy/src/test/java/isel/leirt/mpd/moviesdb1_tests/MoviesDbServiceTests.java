@@ -9,7 +9,7 @@ public class MoviesDbServiceTests {
 	public void getGenresTest() {
 		CounterRequest req = new CounterRequest( new HttpRequest() );
 		MoviesDbService serv =
-			new MoviesDbService(new MoviesDbWebApi(req));
+			 new MoviesDbService(new MoviesDbWebApi(req));
 
 		Iterable<Genre> genres = serv.getGenres();
 		genres.forEach(System.out::println);
