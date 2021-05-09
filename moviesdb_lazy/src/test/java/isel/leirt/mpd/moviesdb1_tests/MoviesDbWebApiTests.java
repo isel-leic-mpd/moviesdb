@@ -33,12 +33,12 @@ public class MoviesDbWebApiTests
 
 	@Test
 	public void getActorsOfWestWorldSeriesTest() {
-		int westWorldSeriesId = 638;
+		int westWorldSeriesId = 63247;
 		MoviesDbWebApi api = new MoviesDbWebApi(new HttpRequest());
 
 		List<ActorDto> actors =
 			api.tvSeriesActors(westWorldSeriesId);
-		assertEquals(10, actors.size());
+		assertEquals(7, actors.size());
 	}
 
 	@Test

@@ -56,7 +56,7 @@ public class MoviesDbServiceTests {
 
 	@Test
 	public void getActorsOfWestWorldSeriesTest() {
-		int westWorldSeriesId = 638;
+		int westWorldSeriesId = 63247;
 		CounterRequest req = new CounterRequest(new HttpRequest());
 		MoviesDbService serv =
 			new MoviesDbService(new MoviesDbWebApi(req));
@@ -66,7 +66,7 @@ public class MoviesDbServiceTests {
 		assertEquals(0, req.getCount());
 		actors.forEach(System.out::println);
 		assertEquals(1, req.getCount());
-		assertEquals(10, (count(actors)));
+		assertEquals(7, (count(actors)));
 		assertEquals(2, req.getCount());
 	}
 
