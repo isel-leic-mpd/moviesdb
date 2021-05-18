@@ -67,7 +67,7 @@ Para implementar as funcionalidade de `MoviesDbWebApi` deve recorrer às rotas d
   * https://developers.themoviedb.org/3/tv
   * https://developers.themoviedb.org/3/discover
   * https://developers.themoviedb.org/3/people
-  * https://developers.themoviedb.org/3/genre
+  * https://developers.themoviedb.org/3/genres/get-tv-list
 
 Os resultados da API RESTFul podem ser convertidos através da biblioteca Gson
 para instâncias de classes pré-definidas (DTOs).
