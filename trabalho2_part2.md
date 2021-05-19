@@ -31,7 +31,7 @@ o acesso à stream `src`recebida por parâmetro.
 A sequência resultante do `cache()` deve:
 1. guardar em memória os elementos que vão sendo obtidos da sequência fonte `src`.
 2. retornar sempre os elementos que já estejam guardados em
-memória e só obter um novo elemento caso este não esteja _cached_.
+memória e só obter um novo elemento da fonte caso este não esteja _cached_.
 
 Exemplo de utilização do método `cache()` sobre uma sequência infinita:
 
