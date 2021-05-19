@@ -12,13 +12,10 @@ funções de ordem superior, construção de sequências lazy via `Iterable<T>`
     ligação à internet.
 2.  Este trabalho deve ser desenvolvido usando como base o projecto Gradle
     **moviesdb** disponibilizado em https://github.com/isel-leic-mpd/moviesdb.
-    Copie toda a solução incluindo o ficheiro `.gitignore` para o repositório
-    Github do grupo de MPD.
-3.  Cada trabalho será desenvolvido num novo módulo dentro do projecto
-    `moviesdb`. Neste Trabalho 1 apenas trabalhará no módulo 
-    `moviesdb-lazy`.
+    Copie os módulos `moviesdb_lazy` e `moviesdb_utils` para o repositório Github do grupo de MPD.
 
-Implemente a biblioteca `moviesdb-lazy` que disponibiliza informação detalhada
+
+O trabalho consiste em completar os módulos `moviesdb-lazy` e `moviesdb_utils` para disponibilizar informação detalhada
 sobre séries de Tv, os seus géneros e os seus actores. 
 Os dados são obtidos a partir de uma API RESTful:
 https://developers.themoviedb.org/3/getting-started/introduction.
@@ -38,7 +35,7 @@ Web Api de Movies Database.
 
 ## 1. **util** `LazyQueries`
 
-O módulo **moviesdb-lazy**  recorre a **moviesdb-util** para executar tarefas
+O módulo **moviesdb-lazy**  recorre ao módulo **moviesdb-util** para executar tarefas
 auxiliares tais como operações sobre sequências implementadas pela classe
 `LazyQueries`.
 Implemente em `LazyQueries` as seguintes operações e **todos os testes unitários
@@ -67,7 +64,7 @@ Para implementar as funcionalidade de `MoviesDbWebApi` deve recorrer às rotas d
   * https://developers.themoviedb.org/3/tv
   * https://developers.themoviedb.org/3/discover
   * https://developers.themoviedb.org/3/people
-  * https://developers.themoviedb.org/3/genre
+  * https://developers.themoviedb.org/3/genres/get-tv-list
 
 Os resultados da API RESTFul podem ser convertidos através da biblioteca Gson
 para instâncias de classes pré-definidas (DTOs).
@@ -75,7 +72,7 @@ para instâncias de classes pré-definidas (DTOs).
 
 ## 3. **moviesdb-lazy** `MoviesDbService`
 
-Implemente os métodos de ` MoviesDbService ` e **todos os testes unitários
+Implemente os métodos de `MoviesDbService` e **todos os testes unitários
 necessários à validação dos seus métodos**.
 
 As relações entre as entidades do modelo de domínio (`Genre`, `TvSeries` e `Actor`)
@@ -83,8 +80,8 @@ devem ser mantidas de forma **lazy**.
 Os testes unitários devem validar o comportamento lazy, verificando que não são realizadas
 operações de IO (e.g. HTTP ou acesso a ficheiros) enquanto não é obtido o `Iterator` resultante.
 Por exemplo, a chamada a `getGenres()` não deve desencadear acesso de IO, tal como a chamada 
-a `getTvSeries()` sobre uma instância de `Genre` também não deve fazer acesso IO até que os objectos 
-`Iterator` sejam obtidos.
+a `getTvSeries()` sobre uma instância de `Genre` também não deve fazer acesso IO até que as sequências
+retornadas sejam consumidas.
 
 Note que alguns dos métodos de `MoviesDbWebApi` recebem um segundo parâmetro
 inteiro correspondente ao número da página.
