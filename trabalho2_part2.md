@@ -44,7 +44,7 @@ Object[] actual = nrs.get().limit(10).ToArray();
 assertArrayEquals(expected, actual);
 ```
 Note que os elementos das sequências resultantes de `cache()` podem ser obtidos alternadamente
-entre sequências.
+entre sequências (através de iteração externa via `tryAdvance` de `Spliterator`).
 
 Modifique os objectos do modelo (`Genre`, `TvSeries` e `Actor`), para evitar que múltiplos pedidos dos objetos
 associados (ex: as séries de um dado género) impliquem múltiplos pedidos à `MoviesDbWebApi`.
