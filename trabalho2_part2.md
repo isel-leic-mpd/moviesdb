@@ -2,7 +2,7 @@
 
 **Data limite de entrega: 6 de junho**
 
-**Objectivos**: Prática com Stream<T> e Spliterator<T>
+**Objectivos**: Prática com `Stream<T>` e `Spliterator<T>`
 
 **NOTA**: 
 1.  A solução entregue deve incluir todos os testes unitários necessários para
