@@ -2,7 +2,7 @@
 
 **Objectivos**: Prática com API assíncrona, `CompletableFuture<T>`.
 <br>
-**Data limite de entrega**: ~~1 de Junho~~ **27 de Junho de 2021**
+**Data limite de entrega**:  **27 de Junho de 2021**
 
 Implemente os testes unitários necessários para validar o
 funcionamento das funcionalidades pedidas.
