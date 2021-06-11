@@ -33,6 +33,7 @@ Os métodos de `MoviesDbWebApi` e `MoviesService`devem passar a retornar resulta
 `CompletableFuture<List<...>>` e `CompletableFuture<Stream<...>>`, respectivamente.
 
 Ao contrário das versões anteriores, **os métodos do serviço não são _lazy_**. 
+<br>
 Modifique os testes já existentes de modo a adaptarem-se às alterações efetuadas no módulo.
 
 ## Parte 2 (Optional) para cotações até 20 valores
