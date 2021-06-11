@@ -2,7 +2,7 @@
 
 **Data limite de entrega: 6 de junho**
 
-**Objectivos**: Prática com Stream<T> e Spliterator<T>
+**Objectivos**: Prática com `Stream<T>` e `Spliterator<T>`
 
 **NOTA**: 
 1.  A solução entregue deve incluir todos os testes unitários necessários para
@@ -31,7 +31,7 @@ o acesso à stream `src`recebida por parâmetro.
 A sequência resultante do `cache()` deve:
 1. guardar em memória os elementos que vão sendo obtidos da sequência fonte `src`.
 2. retornar sempre os elementos que já estejam guardados em
-memória e só obter um novo elemento caso este não esteja _cached_.
+memória e só obter um novo elemento da fonte caso este não esteja _cached_.
 
 Exemplo de utilização do método `cache()` sobre uma sequência infinita:
 
@@ -44,7 +44,7 @@ Object[] actual = nrs.get().limit(10).ToArray();
 assertArrayEquals(expected, actual);
 ```
 Note que os elementos das sequências resultantes de `cache()` podem ser obtidos alternadamente
-entre sequências.
+entre sequências (através de iteração externa via `tryAdvance` de `Spliterator`).
 
 Modifique os objectos do modelo (`Genre`, `TvSeries` e `Actor`), para evitar que múltiplos pedidos dos objetos
 associados (ex: as séries de um dado género) impliquem múltiplos pedidos à `MoviesDbWebApi`.
