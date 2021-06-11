@@ -32,6 +32,8 @@ biblioteca para realização de pedidos HTTP não bloqueantes, como por exemplo
 Os métodos de `MoviesDbWebApi` e `MoviesService`devem passar a retornar resultados na forma de 
 `CompletableFuture<List<...>>` e `CompletableFuture<Stream<...>>`, respectivamente.
 
+Ao contrário das versões anteriores, **os métodos do serviço não são _lazy_**. 
+Modifique os testes já existentes de modo a adapraem-se às alterações efetuadas no módulo.
 
 ## Parte 2 (Optional) para cotações até 20 valores
 
